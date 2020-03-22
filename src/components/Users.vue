@@ -3,7 +3,7 @@ import { useHttpGet } from "@/use/useHttpGet";
 
 export default {
   setup() {
-    const { loading, error, data } = useHttpGet("/api/users/fail");
+    const { loading, error, data } = useHttpGet("/api/users");
 
     return { loading, error, data };
   }
